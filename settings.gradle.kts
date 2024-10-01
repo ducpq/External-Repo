@@ -17,11 +17,6 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
     }
-    versionCatalogs{
-        create("libs") {
-            from(files("../VersionCatalog/gradle/libs.versions.toml"))
-        }
-    }
 }
 
 rootProject.name = "External Repo"
